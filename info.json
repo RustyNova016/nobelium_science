@@ -1,13 +1,14 @@
 {
-  "name": "[internal-mod-name]",
-  "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "name": "nobelium-science",
+  "version": "0.0.1",
+  "title": "Nobelium Science",
+  "author": "RustyNova016",
+  "homepage": "https://github.com/RustyNova016/nobelium_science",
+  "description": "Split the atom- I mean, promethium science",
   "factorio_version": "2.0",
   "dependencies": [
-    "base"
+    "base",
+    "space-age >= 2.0.49"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
