@@ -18,4 +18,4 @@ So a solution is to split both concerns in two science packs. Classic promethium
 
 By default, your science will automatically be setup to be ignored for promethium tech. However you may want to tweak your settings, and autogenerate recipe requirements 
 
-You can read more in the docs
+You can read more in the [docs](https://rustynova016.github.io/nobelium_science/)
