@@ -1,0 +1,1 @@
+require("framework").add_test_data("rocketry")

@@ -23,5 +23,15 @@
     "Lua.diagnostics.disable": [
         "lowercase-global"
     ],
-    "Lua.runtime.version": "Lua 5.2"
+    "Lua.runtime.version": "Lua 5.2",
+    "factorio.versions": [
+        {
+            "name": "2.0.51",
+            "factorioPath": "/home/alephria/Apps/games/factorio/bin/x64/factorio",
+            "active": true
+        }
+    ],
+    "Lua.workspace.userThirdParty": [
+        "/home/alephria/.config/Code/User/workspaceStorage/31367c1a8083ae26e0e67a4599187ee3/justarandomgeek.factoriomod-debug/sumneko-3rd"
+    ]
 }
