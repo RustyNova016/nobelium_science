@@ -31,3 +31,9 @@ This govern when your science packs comes into play. This takes specific values
 default: `false`
 
 Prevent this science pack to be auto added to technologies requesting all science packs of a stage
+
+## `unlocked_by: string[]`
+
+default: The name of your science pack.
+
+The researches required to unlock your science pack. This will add those researches as requirements for the Nobelium science pack research, but will not affect promethium in any way
