@@ -8,11 +8,21 @@ local tech_requirements = {}
 log("[nobelium-science] Adding nobelium science")
 
 -- Search through all science packs to try and find their technologies
--- TODO: add a field in tech to set it as Prometheum tech
 for _, pack in pairs(science.get_all_science_packs()) do
+    -- Check if the science pack delare its technologies
+    if pack.nobelium_science ~= nil and pack.nobelium_science.unlocked_by ~= nil then
+        for _, tech in pairs(pack.nobelium_science.unlocked_by) do
+            table.insert(tech_requirements, tech)
+        end
+
+        goto continue
+    end
+
     if data.raw["technology"][pack.name] ~= nil then
         table.insert(tech_requirements, pack.name)
     end
+
+    ::continue::
 end
 
 data:extend({
